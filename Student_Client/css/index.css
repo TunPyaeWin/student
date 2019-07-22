@@ -1,0 +1,18 @@
+body{
+	background-image: url('wp.jpg');
+}
+.header{
+	background-color: #b0c4de;
+	height: 100px;
+
+}
+
+.content{
+	background-color: rgb(240, 240, 240);
+	min-height: 500px;
+}
+
+.footer{
+	background-color: rgb(150, 150, 150);
+	height: 50px;
+}

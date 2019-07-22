@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html len="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Student</title>
+    <script src="jquery.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/course.js"></script>
+</head>
+
+<body>
+
+    <!-- Container Header -->
+    <div class="container header" id="header">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 align="center">Student Registeration Form</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="student.html"><button type="button" class="btn btn-primary">Student</button></a>
+                <a href="course.html"><button type="button" class="btn btn-primary">Course</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Container -->
+    <div class="container content" id="course">
+        <div class="row">
+            <div class="col-md-10">
+                <h1>Course</h1>
+            </div>
+            <div class="col-md-2">
+                <a href="courseRegister.html">
+                    <button type="button" class="btn btn-success">Register</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Table Row -->
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Course Id</th>
+                            <th>Course Name</th>
+                            <th>Major</th>
+                            <th>Details</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="courseTableBody">
+                        <thread>
+                            <!-- Here will be show student information -->
+                        </thread>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container Footer -->
+    <div class="container footer" id="footer">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 align="center">Footer</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

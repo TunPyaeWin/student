@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html len="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Details Student Data</title>
+    <script src="jquery.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/detail.js"></script>
+</head>
+
+<body>
+    <div width="">
+        <div class="container header" id="header">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 align="center">Student Information Detail</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="student.html">
+                        <button type="button" class="btn btn-primary">Back</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container content" id="student">
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Student Name</th>
+                            <td>
+                                <input type="text" class="form-control" id="uStudentName">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Dath Of Birth</th>
+                            <td>
+                                <input type="date" class="form-control" id="uDateOfBirth">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Email Address</th>
+                            <td>
+                                <input type="email" class="form-control" id="uEmailAddress">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Mobile Number</th>
+                            <td>
+                                <input type="text" maxlength="11" class="form-control" id="uMobileNumber">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td>
+                                <input type="text" class="form-control" id="uGender">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td>
+                                <input type="text" class="form-control" id="uAddress">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Course Name</th>
+                            <td>
+                                <select id="courseName"></select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer">
+            <p align="right">
+                <button class="btn btn-success" id="updateStudentBtn">Update</button>
+                <button class="btn btn-danger" id="deleteStudentBtn">Delete</button>
+                <a href="student.html">
+                    <button type="button" class="btn btn-primary">Close</button>
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
